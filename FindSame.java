@@ -33,12 +33,7 @@ public class FindSame {
 				charar=same.toCharArray();
 				ar=new int[256];
 		}
-			public int[]getSame(){
-				for(int i=0;i<charar.length;i++)
-					ar[charar[i]]++;
-				
-				return ar;
-			}
+			
 			public Pair<Character, Integer>[]getSameChar(){
 				
 				for(int i=0;i<charar.length;i++)
